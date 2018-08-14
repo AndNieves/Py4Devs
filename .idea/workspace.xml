@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c86fe50-8b7a-4eb8-8da2-745fe8912f78" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basics.py" afterPath="$PROJECT_DIR$/basics.py" />
-      <change beforePath="$PROJECT_DIR$/exercise/service_mock.py" afterPath="$PROJECT_DIR$/exercise/service_mock.py" />
-      <change beforePath="$PROJECT_DIR$/exercise/tests.py" afterPath="$PROJECT_DIR$/exercise/tests.py" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/practical/automation/driver/chromedriver 3" afterPath="$PROJECT_DIR$/practical/automation/driver/chromedriver" />
       <change beforePath="$PROJECT_DIR$/practical/automation/selenium_example.py" afterPath="$PROJECT_DIR$/practical/automation/selenium_example.py" />
-      <change beforePath="$PROJECT_DIR$/practical/files/file_reading.py" afterPath="$PROJECT_DIR$/practical/files/file_reading.py" />
-      <change beforePath="$PROJECT_DIR$/practical/oop/classes.py" afterPath="$PROJECT_DIR$/practical/oop/classes.py" />
-      <change beforePath="$PROJECT_DIR$/practical/webservices/webservices.py" afterPath="$PROJECT_DIR$/practical/webservices/webservices.py" />
-      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +23,8 @@
     <SUITE FILE_PATH="coverage/Py4Devs$Unittests_in_unit_py.coverage" NAME="Unittests in unit.py Coverage Results" MODIFIED="1534223278273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/test" />
     <SUITE FILE_PATH="coverage/Py4Devs$file_reading__1_.coverage" NAME="file_reading (1) Coverage Results" MODIFIED="1529337671933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/files" />
     <SUITE FILE_PATH="coverage/Py4Devs$webservices.coverage" NAME="webservices Coverage Results" MODIFIED="1534226487377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/webservices" />
-    <SUITE FILE_PATH="coverage/Py4Devs$selenium_example.coverage" NAME="selenium_example Coverage Results" MODIFIED="1534214649307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/automation" />
     <SUITE FILE_PATH="coverage/Py4Devs$py_test.coverage" NAME="py_test Coverage Results" MODIFIED="1534223269337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/test" />
+    <SUITE FILE_PATH="coverage/Py4Devs$selenium_example.coverage" NAME="selenium_example Coverage Results" MODIFIED="1534253750559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/automation" />
     <SUITE FILE_PATH="coverage/Py4Devs$Unittests_for_unit_MyTest_test.coverage" NAME="Unittests for unit.unit.MyTest.test Coverage Results" MODIFIED="1529340186403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practical/unit" />
   </component>
   <component name="DatabaseView">
@@ -67,14 +59,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="file_reading.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practical/files/file_reading.py">
+      <file leaf-file-name="selenium_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practical/automation/selenium_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,7 +110,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/Py4Devs.ipynb" />
-        <option value="$PROJECT_DIR$/practical/automation/selenium_example.py" />
         <option value="$PROJECT_DIR$/basics.py" />
         <option value="$PROJECT_DIR$/practical/oop/classes.py" />
         <option value="$PROJECT_DIR$/practical/files/file_reading.py" />
@@ -128,6 +117,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/practical/webservices/webservices.py" />
         <option value="$PROJECT_DIR$/exercise/tests.py" />
+        <option value="$PROJECT_DIR$/practical/automation/selenium_example.py" />
       </list>
     </option>
   </component>
@@ -138,8 +128,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,18 +161,31 @@
             <path>
               <item name="Py4Devs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Py4Devs" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="practical" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Py4Devs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Py4Devs" type="462c0819:PsiDirectoryNode" />
               <item name="practical" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Py4Devs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py4Devs" type="462c0819:PsiDirectoryNode" />
+              <item name="practical" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Py4Devs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Py4Devs" type="462c0819:PsiDirectoryNode" />
               <item name="practical" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Py4Devs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py4Devs" type="462c0819:PsiDirectoryNode" />
+              <item name="TestWebApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,6 +210,7 @@
       <recent name="$PROJECT_DIR$/practical/automation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestWebApp" />
       <recent name="$PROJECT_DIR$/practical/oop" />
       <recent name="$PROJECT_DIR$/practical/excel" />
     </key>
@@ -222,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.webservices">
+  <component name="RunManager" selected="Python.selenium_example">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -301,25 +306,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="file_reading" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practical/files" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practical" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical/files/file_reading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="py_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,6 +320,25 @@
       <module name="practical" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical/test/py_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="selenium_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practical/automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practical" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical/automation/selenium_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,17 +421,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in unit.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.excel" />
-      <item index="2" class="java.lang.String" itemvalue="Python.file_reading" />
-      <item index="3" class="java.lang.String" itemvalue="Python.webservices" />
-      <item index="4" class="java.lang.String" itemvalue="Python.py_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.webservices" />
+      <item index="3" class="java.lang.String" itemvalue="Python.py_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.selenium_example" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.webservices" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in unit.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.py_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.excel" />
-        <item index="4" class="java.lang.String" itemvalue="Python.file_reading" />
+        <item index="0" class="java.lang.String" itemvalue="Python.selenium_example" />
+        <item index="1" class="java.lang.String" itemvalue="Python.webservices" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in unit.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.py_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.excel" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +462,7 @@
       <workItem from="1529089498700" duration="9083000" />
       <workItem from="1531242417275" duration="24000" />
       <workItem from="1534108023559" duration="880000" />
-      <workItem from="1534209786193" duration="12361000" />
+      <workItem from="1534209786193" duration="12954000" />
     </task>
     <servers />
   </component>
@@ -494,7 +499,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25062000" />
+    <option name="totallyTimeSpent" value="25655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -507,9 +512,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30194473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46878198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2292176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -629,7 +634,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/TestWebApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -700,16 +705,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practical/automation/selenium_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/TestWebApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="139" column="48" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
@@ -818,6 +813,14 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practical/automation/selenium_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -6,9 +6,9 @@ def create_driver(is_headless):
     chrome_options = Options()
     if is_headless:
         chrome_options.add_argument("--headless")
-    chrome_options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
+    #chrome_options.binary_location = '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
 
-    driver = webdriver.Chrome('./driver/chromedriver 3', chrome_options=chrome_options)
+    driver = webdriver.Chrome('./driver/chromedriver', chrome_options=chrome_options)
     return driver
 
 driver = create_driver(False)
