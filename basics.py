@@ -11,7 +11,7 @@ a_list = [0, '1']
 
 a_dictionary = {'key_1': 'value_1', 'key_2': 2}
 
-# looping throug a list
+# iterating a list
 
 for element in a_list:
     print(element)
@@ -19,16 +19,17 @@ for element in a_list:
 for index, element in enumerate(a_list):
     print(index, element)
 
-# looping a dictionary
+# iterating a dictionary
 
 for key, value in a_dictionary.items():
     print(key, value)
 
+# ranges
 print("From 0 to 10")
 for i in range(10):
     print(i)
 
-print("From 2 to 8")
+print("From 2 to 8, only pairs")
 for i in range(2, 8, 2):
     print(i)
 
@@ -40,17 +41,32 @@ while i > 0:
 
 #if
 a_boolean_value = True
-an_other_boolean_value = True
+other_boolean_value = True
+yet_another_boolean_value = True
 
-if a_boolean_value:
+if a_boolean_value or other_boolean_value and yet_another_boolean_value:
     print('Boolean is True')
-elif an_other_boolean_value:
+elif other_boolean_value:
     print('Other Boolean is True')
 else:
     print('Nothing is True, everything is a lie!')
 
+
+# Functions
+def a_function_name(some_parameter):
+    print(some_parameter)
+    return 'some value'
+
+
+def a_function(parameterA, parameterB):
+    print(parameterA, parameterB)
+    return parameterA
+
+print(a_function('a', 'b'))
+
 # Lambdas
 test_list = [1,2,3,4]
+
 f = lambda x : x + 1
 
 new_list = map(f, test_list)
@@ -72,11 +88,11 @@ generated_list = [x for x in range(0,10) if x % 2 is 0]
 for element in generated_list:
     print(element)
 
-def a_function(parameterA, parameterB):
-    print(parameterA, parameterB)
-    return parameterA
-
-print(a_function('a', 'b'))
+# Slices
+slice_list = [x for x in range(1, 10)]
+index_2_to_5 = slice_list[2:5]
+pairs_2_to_8 = slice_list[2:8:2]
+reverse = slice_list[::-1]
 
 #High order
 def high_order(f, valueA, valueB):

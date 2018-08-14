@@ -14,4 +14,5 @@ def create_driver(is_headless):
 driver = create_driver(False)
 driver.get("http://www.google.com")
 driver.find_element_by_id("lst-ib").send_keys("hi google")
-driver.find_element_by_tag_name("button").click()
+button = driver.find_element_by_name("btnK")
+driver.execute_script("arguments[0].click();", button)
